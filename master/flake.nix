@@ -1,5 +1,5 @@
 {
-  description = ''A simple string templating library for Nim.'';
+  description = ''a compile-time templating engine for nim'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,8 +9,8 @@
   
   inputs.src-templates-master.flake = false;
   inputs.src-templates-master.owner = "onionhammer";
-  inputs.src-templates-master.ref   = "refs/heads/master";
-  inputs.src-templates-master.repo  = "nim-templates";
+  inputs.src-templates-master.ref   = "master";
+  inputs.src-templates-master.repo  = "nim-templates.git";
   inputs.src-templates-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
