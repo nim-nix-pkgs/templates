@@ -11,7 +11,6 @@
   inputs.src-templates-master.ref   = "refs/heads/master";
   inputs.src-templates-master.owner = "onionhammer";
   inputs.src-templates-master.repo  = "nim-templates";
-  inputs.src-templates-master.dir   = "";
   inputs.src-templates-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
